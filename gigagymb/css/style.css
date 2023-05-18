@@ -1,0 +1,204 @@
+body{
+  margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+#header{
+    background-color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.background-image {
+    background-image: url("/img/gris3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  th {
+    color: #ffffff; 
+  }
+  
+  td {
+    color: #ffffff; 
+  }
+
+  #carouselExampleIndicators h1 {
+    color: white;
+}
+
+
+h1 {
+  
+ 
+  text-align: center;
+    
+   
+  margin-top: 30px;
+    
+   
+  margin-bottom: 30px;
+  }
+  
+  .card {
+    
+   
+  margin-bottom: 20px;
+  }
+  
+  .card-price {
+    
+   
+  font-size: 24px;
+    text-align: center;
+    
+   
+  margin-top: 20px;
+    
+   
+  margin-bottom: 20px;
+    
+   
+  color: #000000;
+}
+
+.planesG{
+  background-image: url(/img/gris3.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.planesG h1{
+  color: white;
+}
+
+#hero {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 90vh; 
+  background-image: url("/img/gris3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+
+#hero formulario{
+  padding: 2rem;
+  border-radius: 1rem;
+  width: min(60rem, 100%);
+  margin: 0 auto;
+}
+
+#hero campo{
+  margin-bottom: 1rem;
+}
+
+.campo label{
+  color: var(--blanco);
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.formulario legend{
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.input1{
+  width: 90%;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.campo{
+  margin-bottom: 1rem;
+}
+.campo textarea{
+  height: 20rem;
+}
+
+@media (min-width:768px){
+  #hero contenedorCampo{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows:auto auto 20rem;
+      column-gap: 1rem;
+  }
+}
+
+
+
+
+ 
+.fondo {
+    position: relative;
+  }
+  
+  .texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .texto-encima button{
+    background-color: gray;
+    font-weight: bold;
+  }
+
+  .tabla h1{
+    color: rgb(255, 255, 255);
+  }
+
+
+  
+
+  footer{
+    background-color: gray;
+  }
+
+  footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
+
+footer svg{
+    color: white;
+}
+  
